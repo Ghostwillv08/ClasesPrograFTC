@@ -13,8 +13,8 @@ public class MoverMotores extends LinearOpMode{
 
 
     public void runOpMode(){
-        motorIzquierdo = hardwareMap.get(DcMotorEx.class, "MotorIzquierdo");
-        motorDerecho = hardwareMap.get(DcMotorEx.class, "MotorDerecho");
+        motorIzquierdo = hardwareMap.get(DcMotorEx.class, "Motor1");
+        motorDerecho = hardwareMap.get(DcMotorEx.class, "Motor2");
 
         motorDerecho.setDirection(Direction.REVERSE);
 
